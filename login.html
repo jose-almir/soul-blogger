@@ -1,60 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="jose-almir" />
-    <meta name="keywords" content="blog, soulcode, fullstack" />
-    <meta name="description" content="Entre para interagir com os posts" />
-    <title>Login - SoulBlogger</title>
-    <link rel="stylesheet" href="./styles/main.css" />
-  </head>
-  <body>
-    <a href="./index.html"><h1>SoulBlogger</h1></a>
-    <p>Seu maior <strong>blog fullstack</strong> do Brasil!</p>
 
-    <nav>
-      <ul>
-        <li><a href="./about-me.html">Sobre mim</a></li>
-        <li>
-          <a
-            href="mailto:jose.almir@soulcodeacademy.org?subject=Contratação de serviços"
-            >Envie um email</a
-          >
-        </li>
-        <li><a href="tel:982313123123">Me ligue</a></li>
-        <li><a href="./login.html">Login</a></li>
-        <li><a href="./cadastro.html">Cadastro</a></li>
-      </ul>
-    </nav>
-    <hr />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="jose-almir" />
+  <meta name="keywords" content="blog, soulcode, fullstack" />
+  <meta name="description" content="Entre para interagir com os posts" />
+  <title>Login - SoulBlogger</title>
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
 
-    <form>
-      <h3>Seja bem-vindo(a) de volta!</h3>
-      <div>
-        <label for="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Seu email cadastrado"
-        />
-      </div>
-      <div>
-        <label for="password">Senha</label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          placeholder="Sua senha"
-        />
-      </div>
-      <div>
-        <input type="checkbox" id="connected" name="connected" />
-        <label for="connected">Continuar conectado?</label>
-      </div>
-      <button>Login</button>
-    </form>
-  </body>
+<body>
+  <a href="./index.html">
+    <h2><span class="material-icons">star</span>SoulBlogger</h2>
+  </a>
+  <p>Seu maior <strong>blog fullstack</strong> do Brasil!</p>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="./about-me.html">Sobre mim</a></li>
+      <li>
+        <a href="mailto:jose.almir@soulcodeacademy.org?subject=Contratação de serviços">Envie um email</a>
+      </li>
+      <li><a href="tel:982313123123">Me ligue</a></li>
+      <li><a href="./login.html">Login</a></li>
+      <li><a href="./cadastro.html">Cadastro</a></li>
+    </ul>
+  </nav>
+  <hr />
+
+  <form>
+    <h3>Seja bem-vindo(a) de volta!</h3>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Seu email cadastrado" />
+    </div>
+    <div>
+      <label for="password">Senha</label>
+      <input type="password" id="password" name="password" placeholder="Sua senha" />
+    </div>
+    <div>
+      <input type="checkbox" id="connected" name="connected" />
+      <label for="connected">Continuar conectado?</label>
+    </div>
+    <button>Login</button>
+  </form>
+</body>
+
 </html>
