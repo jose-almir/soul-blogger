@@ -1,62 +1,97 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-
 * {
-  box-sizing: border-box;
-  margin: 0;
-  border: 0;
-  font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
-  background-image: linear-gradient(135deg, #8bc6ec, #9599e2);
-  height: 100vh;
-  padding: 8px;
+    background-image: linear-gradient(135deg, #8bc6ec, #9599e2);
+    min-height: 100vh;
+    padding: 8px;
 }
 
 hr {
-  height: 1px;
-  background-color: #3337d0;
-  margin: 8px 0;
+    height: 1px;
+    background-color: #3337d0;
+    margin: 8px 0;
 }
 
 input:not(input[type="checkbox"]) {
-  padding: 8px 16px;
-  border: 1px solid black;
-  border-radius: 8px;
-  display: block;
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: block;
 }
 
 button {
-  background-color: #575ad0;
-  color: white;
-  padding: 8px 16px;
-  margin: 8px 0;
-  cursor: pointer;
-  border-radius: 8px;
+    background-color: #575ad0;
+    color: white;
+    padding: 8px 16px;
+    margin: 8px 0;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 button:hover {
-  background-color: #3337d0;
+    background-color: #3337d0;
 }
 
 .menu {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .menu li {
-  display: inline;
-  padding: 0px 8px;
-  background-color: #575ad0;
-  margin: 0 8px;
-  border-radius: 8px;
+    display: inline;
+    padding: 0px 8px;
+    background-color: #575ad0;
+    margin: 0 8px;
+    border-radius: 8px;
 }
 
 .menu li a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .menu li:hover {
-  background-color: #3337d0;
+    background-color: #3337d0;
+}
+
+.post-card {
+    background-color: white;
+    margin: 8px 8px;
+    border-radius: 8px;
+    max-width: 260px;
+}
+
+.post-card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.post-card div {
+    padding: 8px;
+}
+
+.post-card .info {
+    color: gray;
+    font-size: 12px;
+}
+
+.post-card a {
+    background-color: #575ad0;
+    text-decoration: none;
+    color: white;
+    padding: 0px 8px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
 }
